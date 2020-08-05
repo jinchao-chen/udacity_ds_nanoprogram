@@ -1,1 +1,1 @@
-# udacity_ds_nanoprogram
+# udacity data scientist nanoprogram
