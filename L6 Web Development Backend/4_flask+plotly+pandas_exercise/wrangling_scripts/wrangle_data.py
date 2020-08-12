@@ -146,13 +146,31 @@ def return_figures():
           mode = 'markers',
           text = text,
           name = country,
-          textposition = 'top'
+          textposition = 'top right'
           )
       )
 
     layout_four = dict(title = 'Rural Population versus <br> Forested Area (Square Km) 1990-2015',
                 xaxis = dict(title = 'Rural Population'),
                 yaxis = dict(title = 'Forest Area (square km)'),
+                )
+
+  # fifth chart shows total rural polulation
+    graph_five = []
+
+    df = cleandata('data/API_SP.RUR.TOTL_DS2_en_csv_v2_9914824.csv') # clean data, include only year 2015
+    df = df[df['year'] == 2015] 
+
+    graph_five.append(
+      go.Bar(
+      x = df.country.tolist(),
+      y = df.variable.tolist(),
+      )
+    )
+
+    layout_five = dict(title = 'Totoal rural polulation in 2015',
+                xaxis = dict(title = 'Country',),
+                yaxis = dict(title = 'total polulation'),
                 )
 
     # TODO: Make a fifth chart from the data in API_SP.RUR.TOTL_DS2_en_csv_v2_9914824.csv
@@ -171,6 +189,7 @@ def return_figures():
     figures.append(dict(data=graph_two, layout=layout_two))
     figures.append(dict(data=graph_three, layout=layout_three))
     figures.append(dict(data=graph_four, layout=layout_four))
+    figures.append(dict(data=graph_five, layout=layout_five))
     
     # TODO: append the figure five information to the figures list
     
