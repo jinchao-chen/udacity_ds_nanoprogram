@@ -1,0 +1,203 @@
+﻿"TableInfos"
+"ID";"Title";"ShortTitle";"Identifier";"Summary";"Modified";"ReasonDelivery";"ExplanatoryText";"Language";"Catalog";"Frequency";"Period";"ShortDescription";"Description";"DefaultPresentation";"DefaultSelection";"GraphTypes";"OutputStatus";"Source";"MetaDataModified";"SearchPriority"
+"0";"Vehicle kilometres goods vehicles; kilometres, vehicle weight, territory";"Vehicle kilometres goods vehicles";"84651ENG";"Vehicle kilometres of lorries and road tractors (Dutch and foreign
+vehicles) by territory, vehicle construction years, gross vehicle weight";"2019-11-12T02:00:00";"New";"";"en";"CBS";"Yearly";"2001-2018";"
+This table contains data on total vehicle kilometres of goods vehicles in the Netherlands (broken down by Dutch and foreign vehicles) and data of total kilometres and average annual kilometres of Dutch goods vehicles (broken down by Dutch and foreign territory).
+All figures are further broken down by lorries and road tractors, by years of construction of the vehicle and by gross vehicle weight. 
+
+Data available from: 2001
+
+Status of the figures:
+Definite data are available for 2001 to 2016, and provisional data for 2017 and 2018.
+
+Changes as of 12 november 2019
+None, this is a new table.
+
+When will new figures become available?
+New figures will be published on a yearly basis in November of the subsequent year.
+
+";"CONTENTS
+
+1. General information
+2. Definitions and explanation of symbols 
+3. Links to relevant tables and articles
+4. Sources and methods
+5. Further information
+
+
+1. GENERAL INFORMATION
+
+This table contains data on total vehicle kilometres of goods vehicles in the Netherlands (broken down by Dutch and foreign vehicles) and data of total kilometres and average annual kilometres of Dutch goods vehicles (broken down by Dutch and foreign territory).
+All figures are further broken down by lorries and road tractors, by years of construction of the vehicle and by gross vehicle weight. 
+
+Data available from: 2001
+
+Status of the figures:
+Definite data are available for 2001 to 2016, and provisional data for 2017 and 2018.
+
+Changes as of 12 november 2019
+None, this is a new table.
+
+When will new figures become available?
+New figures will be published on a yearly basis in November of the subsequent year.
+
+
+2. DEFINITIONS AND EXPLANATION OF SYMBOLS
+
+Definitions:
+
+Vehicle-kilometre
+Unit of measurement for traffic, representing the movement of a vehicle over one kilometre.
+
+Average annual kilometres
+The average number of kilometres per year travelled by a vehicle.
+
+Goods vehicle
+Lorry or road tractor, delivery van is not included.
+
+Lorry (road tractor not included)
+Rigid heavy goods road vehicle with a gross vehicle weight above 3500 kg, exclusively or primarily designed to carry goods.
+
+Road tractor
+Road motor vehicle, exclusively or primarily designed to haul other road vehicles which are not power-driven (mainly semi-trailers). 
+Agricultural tractors not included.
+
+Year of construction
+The year of the first registration of the road vehicle, irrespective of the country of registration.
+
+Gross vehicle weight (GVW)
+Gross vehicle weight (legally permissible maximum weight). Total of the weight of the vehicle (or combination of vehicles), including its load when stationary and ready for the road declared permissible by the competent authority of the country of registration. 
+
+Explanation of symbols:
+
+Empty cell : figure not applicable
+. : figure is unknown, insufficiently reliable or confidential
+* : provisional figure 
+** : revised provisional figure
+
+Figures are rounded off to the nearest 100,000 kilometres. Consequently, the sum of the detail data can deviate from the total.
+
+Explanation of abbreviations frequently used in this table:
+NAP = Stichting Nationale AutoPas (National Car Pass)
+PTI = Periodic Technical Inspection (APK = Algemene periodieke keuring)
+RDW = Dienst Wegverkeer (the Netherlands Vehicle Authority)
+
+
+3. LINKS TO RELEVANT TABLES AND ARTICLES
+
+Relevant table:
+This table replaces <a href='https://opendata.cbs.nl/statline/#/CBS/nl/dataset/80379eng'>Vehicle kilometres goods vehicles; vehicle weight and territory 2001-2017</a>
+
+Relevant articles:
+Vehicle kilometres are used for calculating emissions. More information about calculating vehicle kilometres and emissions by mobile sources can be found in <a href='https://www.cbs.nl/en-gb/our-services/methods/surveys/aanvullende%20onderzoeksbeschrijvingen/methods-for-calculating-the-emissions-of-transport-in-the-netherlands'>Methods for calculating the emission of transport in the Netherlands</a>.
+
+More information can be found in the theme 'Traffic and transport' in <a href='https://www.cbs.nl/nl-nl/maatschappij/verkeer-en-vervoer'>Dutch language </a>or in <a href='https://www.cbs.nl/en-gb/society/traffic-and-transport'>English language </a>(but with less detail).
+
+
+4. SOURCES AND METHODS
+
+It has become illegal to reverse the odometer or to advertise about that. This obligation applies to personal vehicles and light company vehicles (up to 3,500 kg). Odometer readings have to be registered more often in order to reduce the chance of fraud. 
+Next to the PTI-inspection, odometer readings for vehicles up to 3,500 kg are also registered by change of car ownership, inclusion in company stock, demolition of a car, by importing or exporting a vehicle, repairs over 150 Euros and installation of an LPG tank or an alcohol interlock. The registration of odometer readings of heavy commercial vehicles occurs after the PTI.
+
+The survey method for this table can be found in the survey description <a href='https://www.cbs.nl/nl-nl/onze-diensten/methoden/onderzoeksomschrijvingen/korte-onderzoeksbeschrijvingen/verkeersprestaties-vrachtauto-s-en-trekkers'>Verkeersprestaties vrachtauto's en trekkers</a> (only available in Dutch language).
+
+
+5. FURTHER INFORMATION 
+
+<a href='https://www.cbs.nl/en-gb/about-us/contact/infoservice'>Infoservice</a>
+
+Copyright (c) Statistics Netherlands, The Hague/Heerlen
+Reproduction is permitted, provided Statistics Netherlands is quoted as the source.
+";"ts=1573475814503&graphtype=Table&r=Periods,LorriesAndRoadTractors&k=Topics&t=YearOfConstructionMotorvehicle";"$filter=((LorriesAndRoadTractors eq 'A018938') or (LorriesAndRoadTractors eq 'A018937') or (LorriesAndRoadTractors eq 'A018936') or (LorriesAndRoadTractors eq 'A028272') or (LorriesAndRoadTractors eq 'A028273') or (LorriesAndRoadTractors eq 'A028274')) and ((YearOfConstructionMotorvehicle eq 'T001378')) and ((Periods eq '2015JJ00') or (Periods eq '2016JJ00') or (Periods eq '2017JJ00') or (Periods eq '2018JJ00'))";"Table,Bar,Line";"Regular";"CBS.";"2019-11-12T02:00:00";"2"
+"DataProperties"
+ID;Position;ParentID;Type;Key;Title;Description;ReleasePolicy;Datatype;Unit;Decimals;Default
+"0";"0";;"Dimension";"LorriesAndRoadTractors";"Lorries and road tractors";"";;;;;
+"1";"1";;"Dimension";"YearsOfConstruction";"Years of construction";"";;;;;
+"2";"2";;"TimeDimension";"Periods";"Periods";"";"true";;;;
+"3";;;"TopicGroup";"";"Kilometres in the Netherlands";"The total distance travelled (in km) in the Netherlands by vehicles with a Dutch registration plate and vehicles with foreign registration plates.
+
+Since 2001, Statistics Netherlands conducts an extensive annual survey based on odometer readings (see section 4 in the table notes, which includes a link to the survey description). Since 2001, data are therefore rounded off to the nearest 100,000 kilometres and are thus available in more detail than in prior years.
+";;;;;
+"4";"3";"3";"Topic";"TotalKilometresInTheNetherlands_1";"Total kilometres in the Netherlands";"The total distance travelled (in km) in the Netherlands by vehicles with a Dutch registration plate and vehicles with foreign registration plates.";;"Double";"x million km";"1";"Impossible"
+"5";"4";"3";"Topic";"KilometresByDutchVehicles_2";"Kilometres by Dutch vehicles";;;"Double";"x million km";"1";"Impossible"
+"6";"5";"3";"Topic";"KilometresByForeignVehicles_3";"Kilometres by foreign vehicles";"The total distance travelled (in km) by foreign vehicles in the Netherlands.";;"Double";"x million km";"1";"Impossible"
+"7";;;"TopicGroup";"";"Kilometres by Dutch vehicles";"The total distance travelled (in km) in the Netherlands and abroad by vehicles with a Dutch registration plate.
+
+Since 2001, Statistics Netherlands conducts an extensive annual survey based on odometer readings (see section 4 in the table notes, which includes a link to the survey description). Since 2001, data are therefore rounded off to the nearest 100,000 kilometres and are thus available in more detail than in prior years.
+";;;;;
+"8";"6";"7";"Topic";"TotalKilometresByDutchVehicles_4";"Total kilometres by Dutch vehicles";"The total distance travelled (in km) in the Netherlands and abroad by vehicles with a Dutch registration plate.";;"Double";"x million km";"1";"Impossible"
+"9";"7";"7";"Topic";"KilometresInTheNetherlands_5";"Kilometres in the Netherlands";;;"Double";"x million km";"1";"Impossible"
+"10";"8";"7";"Topic";"KilometresAbroad_6";"Kilometres abroad";"The total distance travelled (in km) abroad by vehicles with a Dutch registration plate.";;"Double";"x million km";"1";"Impossible"
+"11";;;"TopicGroup";"";"Average annual kilometres";"The average number of kilometres per year travelled by a vehicle.
+
+This includes vehicles with a Dutch registration plate.";;;;;
+"12";"9";"11";"Topic";"TotalAverageAnnualKilometres_7";"Total average annual kilometres";"The average number of kilometres per year travelled by a vehicle.
+
+This includes vehicles with a Dutch registration plate.";;"Double";"km";"0";"Impossible"
+"13";"10";"11";"Topic";"AverageAnnualKilometresInNetherlands_8";"Average annual kilometres in Netherlands";"The average number of kilometres per year travelled by a vehicle in the Netherlands.
+
+This includes vehicles with a Dutch registration plate.";;"Double";"km";"0";"Impossible"
+"14";"11";"11";"Topic";"AverageAnnualKilometresAbroad_9";"Average annual kilometres abroad";"The average number of kilometres per year travelled by a vehicle abroad (outside the Netherlands).
+
+This includes vehicles with a Dutch registration plate.";;"Double";"km";"0";"Impossible"
+"15";"12";;"Topic";"DutchGoodsVehiclesInUse_10";"Dutch goods vehicles in use";"All lorries and road tractors with a valid Dutch registration number which are allowed to travel on the Dutch public road system during (part of) the year, including:
+- lorries and road tractors which are in stock part of the year 
+- lorries and road tractors which are used part of the year on the Dutch public road system, e.g. new or imported vehicles and vehicles which are scrapped or exported during the year.
+
+The calculated figures are higher than the number of registered lorries and road tractor units on the reference date 1 January, as published in the tables on the motor vehicle fleet. 
+Goods vehicles in use are all vehicles which could have been used during the entire year. The motor vehicle fleet only includes all motor vehicles with valid registration numbers on 1 January. Therefore, the actual number of motor vehicles is smaller.
+";;"Double";"number";"0";"Impossible"
+"LorriesAndRoadTractors"
+Key;Title;Description
+"A018938";"Lorries and road tractors";"Lorry
+Rigid heavy goods road vehicle with a gross vehicle weight above 3500 kg, exclusively or primarily designed to carry goods.
+
+Road tractor
+Road motor vehicle, exclusively or primarily designed to haul other road vehicles which are not power-driven (mainly semi-trailers).
+Agricultural tractors are not included."
+"A018937";"Road tractor";"Road motor vehicle, exclusively or primarily designed to haul other road vehicles which are not power-driven (mainly semi-trailers).
+
+Agricultural tractors are not included."
+"A018936";"Lorry (road tractor not included)";"Rigid heavy goods road vehicle with a gross vehicle weight above 3500 kg, exclusively or primarily designed to carry goods."
+"A028272";"To 10 000 kg";"The total weight of the vehicle (or combination of vehicles) including the maximum permissible weight of the cargo."
+"A028273";"10 000 to 20 000 kg";"The total weight of the vehicle (or combination of vehicles) including the maximum permissible weight of the cargo."
+"A028274";"20 000 kg or more";"The total weight of the vehicle (or combination of vehicles) including the maximum permissible weight of the cargo."
+"YearsOfConstruction"
+Key;Title;Description
+"T001378";"Total of all construction years";""
+"A048264";"Year of construction 1900 to 2000";""
+"A048265";"Year of construction 2000 to 2005";""
+"A044273";"2005";""
+"A044274";"2006";""
+"A044275";"2007";""
+"A044276";"2008";""
+"A044277";"2009";""
+"A044278";"2010";""
+"A044279";"2011";""
+"A044280";"2012";""
+"A044281";"2013";""
+"A044282";"2014";""
+"A044283";"2015";""
+"A044284";"2016";""
+"A044285";"2017";""
+"A044286";"2018";""
+"Periods"
+Key;Title;Description;Status
+"2001JJ00";"2001";"";"Definitief"
+"2002JJ00";"2002";;"Definitief"
+"2003JJ00";"2003";;"Definitief"
+"2004JJ00";"2004";;"Definitief"
+"2005JJ00";"2005";;"Definitief"
+"2006JJ00";"2006";;"Definitief"
+"2007JJ00";"2007";;"Definitief"
+"2008JJ00";"2008";;"Definitief"
+"2009JJ00";"2009";"";"Definitief"
+"2010JJ00";"2010";"";"Definitief"
+"2011JJ00";"2011";"";"Definitief"
+"2012JJ00";"2012";"";"Definitief"
+"2013JJ00";"2013";"";"Definitief"
+"2014JJ00";"2014";"";"Definitief"
+"2015JJ00";"2015";"";"Definitief"
+"2016JJ00";"2016";"";"Definitief"
+"2017JJ00";"2017";"Provisional figures";"Voorlopig"
+"2018JJ00";"2018";"Provisional figures";"Voorlopig"
