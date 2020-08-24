@@ -1,3 +1,1 @@
-# Goods vehicle analysis
-
-Instructions
+# udacity data scientist nanoprogram
